@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:wght@300&display=swap');
+
+body{
+    background-color: #000;
+}
+
+:root{
+    --primary-color:teal;
+    --secondary-color:rgb(66, 105, 41);
+}
+
+.logo{
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.logo h1{
+     color:#fff;
+}
+
+ul li {
+    display:inline;
+    list-style:none;
+    padding-left:4rem;
+}
+
+
+ul li a{
+    text-decoration: none;
+    color:#fff;
+}
+
+
+/* nav end */
+.header{
+    background-image: url(../images/pexels-nao-triponez-129207.jpg);
+    background-position: center;
+    background-size: cover;
+    height:120vh;
+    font-family:"Playfair Display",serif;
+    position: relative;
+    text-align: center;
+    color:#fff;
+}
+
+
+.main-heading{
+    position: absolute;
+    top: 2em;
+    margin:0rem 26rem;
+    font-size: 3.5rem;
+    word-spacing: 10px;
+    
+}
+
+
+.primary-heading{
+    position: absolute;
+    bottom: 4rem;
+    margin:0rem 23rem;
+    font-size: 3.5rem;
+    word-spacing: 10px;
+
+
+}
+
+
+
+.main-btn{
+    position: absolute;
+    bottom: 3rem;
+    padding:7px 10px;
+    border: transparent;
+    background-color:var(--primary-color);
+    margin: 2px 2px;
+    color:#000;
+    cursor: pointer;
+    border-radius: none;
+    transform: translateY(40px);
+
+}
+
+
+/* headerend */
+
+
+
+#our-story{
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15%;
+    justify-content: space-around;
+
+}
+.img{
+    width:300px;
+    height:300px;
+    background: url(../images/pexels-chitokan-2183027-removebg-preview.png);
+    background-position:center;
+    background-size: cover;
+}
+
+
+.title-style{
+    display:flex;
+    align-items: center;
+
+}
+
+.title{
+    font-family:"Playfair Display",serif;
+    font-size:3rem;
+    color: #fff;
+    transform: translateX(-100px);
+
+}
+
+.line{
+    width:100px;
+    height:2px;
+    background: #fff;
+    transform: translatex(-100px);
+    margin: 0rem 50px;
+    left: 10rem;
+
+}
+
+.section-content p{
+    max-width: 300px;
+    color: #fff;
+    margin:0rem 70px;
+    line-height: 20px;
+    font-family: sans-serif;
+    text-align:left;
+    
+
+}
+
+.btn{
+    border: transparent;
+    background-color:var(--primary-color);
+    margin: 2px 2px;
+    color:#000;
+    cursor: pointer;
+    border-radius: none;
+    padding: 7px 20px;
+    left:-30px;
+
+}
+
+
+/*ourstoryend */
+
+
+.coffee-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+    margin-top:10rem;
+}
+
+
+.img2{
+    width: 400px;
+    height: 400px;
+
+}
+
+.title-two{
+    font-size: 3rem;
+    color: #fff;
+    font-family: "Playfair Display, serif";
+    font-size: normal;
+}
+
+.content-section p{
+    max-width: 500px;
+    margin-top:5px;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+/* end */
+
+.product{
+    margin-top:5rem
+}
+
+.title-three{
+    font-size: 3rem;
+    margin-top: 10rem;
+    margin-left: 10rem;
+    margin-bottom: 10rem;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card{
+    border: 2px solid var(--primary-color);
+    padding: 0 20px;
+    height: 350px;
+    width:200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    position: relative;
+    margin-bottom: 4rem;
+}
+
+.card-img{
+    width: 80px;
+    height: 80px;
+    border: 2px solid var(--secondary-color);
+    top:-60px;
+    position: absolute;
+}
+
+
+.img-one{
+    background-image: url(../images/1.png);
+    background-position: center;
+    background-size:cover;
+}
+
+.img-two{
+    background-image: url(../images/4.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-three{
+    background-image: url(../images/3.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.card-title{
+    color:#fff;
+    font-family: sans-serif;
+    margin-top: 50px;
+}
+
+.item p{
+    color:#fff;
+    font-family: sans-serif;
+    margin: 20px 0; 
+}
+
+/* productend */
+
+footer{
+    display: flex;
+    height: 60vh;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+footer .container{
+    margin: 20px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.heading-info{
+    color: #fff;
+    
+}
+
+footer span{
+    color:var(--secondary-color);
+    line-height: 20px;
+    
+}
+
+.para{
+    color: #fff;
+    text-align: center;
+    margin:0;
+    font-weight:normal;
+    font-family: "Playfair Display" serif;
+}
+
+@media only screen and (max-width:768px){
+    
+  ul li a{
+    margin-left: -3rem;
+  }
+   .header{
+    background-image: url(../images/pexels-nao-triponez-129207.jpg);
+    background-size: cover;
+    width:100%;
+    height: 50vh;
+    background-position: center;
+    font-family:"Playfair Display",serif;
+    position: relative;
+    text-align: center;
+    color:#fff;
+
+   }
+   .main-heading{
+    margin-left: 3rem;
+    font-size: 1rem;
+   }
+   .primary-heading{
+    margin-left: 3rem;
+    font-size: 1rem;
+   }
+
+   .line{
+    display: none;
+   }
+
+   .section-content .title{
+    margin-left:15rem;
+   }
+   .section-content p{
+    width: 100%;
+    align-items: center;
+   }
+
+   .coffee-container .title-two{
+    width: 100%;
+    text-align: center;
+   }
+
+   .coffee-container p{
+    align-items: center;
+    margin-left: 2rem;
+   }
+
+   .coffee-container .btn{
+    margin-left:8rem;
+    margin-bottom: 2rem;
+   }
+
+   .img-container .img2{
+    width:100%;
+    background-size: cover;
+    margin-left:3rem;
+   }
+
+   .product .title-three{
+    display: none;
+   }
+   
+   footer .container{
+    margin-top:1rem;
+     margin-left:-1rem;
+     width:100%;
+     display: block;
+     flex-direction: row;
+     align-content: center;
+     justify-content: center;
+   }
+   footer .heading-info {
+    display:block;
+    font-size: 1rem;
+    
+   }
+   .container p{
+    font-size: 10px;
+    text-align: center;
+    align-items: center;
+    
+   }
+   
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
